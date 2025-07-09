@@ -53,6 +53,7 @@ namespace Assignment_1._1._4
             Console.WriteLine("Student FirstName: " + student.StudentFirstName);
             Console.WriteLine("Student Lastname: " + student.StudentLastName);
             Console.WriteLine("Student Grade: " + student.StudentGrade);
+            Console.WriteLine("--------------------------------------------");
 
         }
     }
