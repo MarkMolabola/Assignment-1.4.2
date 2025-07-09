@@ -2,7 +2,8 @@
 using System.ComponentModel;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
-namespace Assignment_1._1._4
+
+namespace Assignment_1._4._2
 {
 
     //Write a class: “Student” with private data members: StudentId(int), StudentFname(string), StudentLname(string ), StudentGrade(char )
@@ -10,41 +11,7 @@ namespace Assignment_1._1._4
 
     internal class Program
     {
-        struct Student
-        {
-            private int studentId;
-            private string studentFirstName;
-            private string studentLastName;
-            private char studentGrade;
-
-            public Student(int studentid, string firstname, string lastname, char grade) //constructor
-            {
-                studentId = studentid;
-                studentFirstName = firstname;
-                studentLastName = lastname;
-                studentGrade = grade;
-            }
-            public int StudentId
-            {
-                get { return studentId; }
-                set { studentId = value; }
-            }
-            public string StudentFirstName
-            {
-                get { return studentFirstName; }
-                set { studentFirstName = value; }
-            }
-            public string StudentLastName
-            {
-                get { return studentLastName; }
-                set { studentLastName = value; }
-            }
-            public char StudentGrade
-            {
-                get { return studentGrade; }
-                set { studentGrade = value; }
-            }
-        }
+       
         static void Main(string[] args)
         {
             Student student = new Student(10141, "Mark", "Molabola", 'A');
@@ -54,7 +21,7 @@ namespace Assignment_1._1._4
             Console.WriteLine("Student Lastname: " + student.StudentLastName);
             Console.WriteLine("Student Grade: " + student.StudentGrade);
             Console.WriteLine("--------------------------------------------");
-
         }
+
     }
 }
