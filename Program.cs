@@ -14,13 +14,20 @@ namespace Assignment_1._4._2
        
         static void Main(string[] args)
         {
-            Student student = new Student(10141, "Mark", "Molabola", 'A');
+            Student student0 = new Student(10141, "Mark", "Molabola", 'A');
+            //Student student1 = new ();
             Console.WriteLine("Student Details:");
-            Console.WriteLine("Student Id: " + student.StudentId);
-            Console.WriteLine("Student FirstName: " + student.StudentFirstName);
-            Console.WriteLine("Student Lastname: " + student.StudentLastName);
-            Console.WriteLine("Student Grade: " + student.StudentGrade);
+            Console.WriteLine("Student Id: " + student0.StudentId);
+            Console.WriteLine("Student FirstName: " + student0.StudentFirstName);
+            Console.WriteLine("Student Lastname: " + student0.StudentLastName);
+            Console.WriteLine("Student Grade: " + student0.StudentGrade);
             Console.WriteLine("--------------------------------------------");
+
+            //Student[] students = new Student[5];
+
+
+
+
         }
 
     }

@@ -19,6 +19,7 @@ namespace Assignment_1._4._2
             StudentLastName = lastname;
             StudentGrade = grade;
         }
+        public Student() { }
 
     }
 }
