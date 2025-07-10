@@ -8,7 +8,13 @@ namespace Assignment_1._4._2
 {
     public class Student
     {
-        public int StudentId { get; set; }
+        private int studentId;
+
+        public int StudentId 
+        {
+            get { return studentId; }
+            set { studentId = value; }
+        }
         public string StudentFirstName { get; set; }
         public string StudentLastName { get; set; }
         public char StudentGrade { get; set; }
