@@ -14,8 +14,14 @@ namespace Assignment_1._4._2
        
         static void Main(string[] args)
         {
-            Student student0 = new Student(10141, "Mark", "Molabola", 'A');
-            //Student student1 = new ();
+            //Student student0 = new Student(10141, "Mark", "Molabola", 'A'); //assign using constructor
+            Student student0 = new ();
+            //Assigning values to properties
+            student0.StudentId = 10141;
+            student0.StudentFirstName = "Mark";
+            student0.StudentLastName = "Molabola";
+            student0.StudentGrade = 'A';
+           
             Console.WriteLine("Student Details:");
             Console.WriteLine("Student Id: " + student0.StudentId);
             Console.WriteLine("Student FirstName: " + student0.StudentFirstName);
